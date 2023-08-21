@@ -2,11 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:sushiteria_fugu/assets/themes/colors.dart';
 import 'package:sushiteria_fugu/user_side/components/user_drawer_component.dart';
-import 'package:sushiteria_fugu/user_side/components/user_button_component.dart';
-import 'package:sushiteria_fugu/user_side/components/user_foodTile_component.dart';
 import 'package:sushiteria_fugu/user_side/models/user_shop_model.dart';
 import 'package:provider/provider.dart';
 import 'package:sushiteria_fugu/user_side/pages/user_foodDetails_page.dart';
@@ -39,9 +35,6 @@ class _UserAboutUsPageState extends State<UserAboutUsPage> {
 
   @override
   Widget build(BuildContext context) {
-    final userShop = context.read<UserShop>();
-    final userFoodMenu = userShop.userFoodMenu;
-
     return Scaffold(
       backgroundColor: Colors.grey[300],
       appBar: AppBar(

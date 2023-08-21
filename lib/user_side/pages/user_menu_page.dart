@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:sushiteria_fugu/assets/themes/colors.dart';
 import 'package:sushiteria_fugu/user_side/components/user_drawer_component.dart';
-import 'package:sushiteria_fugu/user_side/components/user_button_component.dart';
 import 'package:sushiteria_fugu/user_side/components/user_foodTile_component.dart';
 import 'package:sushiteria_fugu/user_side/models/user_shop_model.dart';
 import 'package:provider/provider.dart';
