@@ -1,5 +1,3 @@
-// ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
 import 'package:sushiteria_fugu/assets/themes/colors.dart';
 import 'package:sushiteria_fugu/user_side/components/user_drawer_component.dart';

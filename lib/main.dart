@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sushiteria_fugu/user_side/pages/UserMainPage.dart';
+import 'package:sushiteria_fugu/user_side/pages/user_main_page.dart';
 import 'package:sushiteria_fugu/user_side/models/user_shop_model.dart';
 import 'package:sushiteria_fugu/user_side/pages/user_cart_page.dart';
 import 'package:sushiteria_fugu/user_side/pages/user_intro_page.dart';
